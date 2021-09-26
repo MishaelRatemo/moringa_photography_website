@@ -1,0 +1,84 @@
+
+body{
+    background-color: lightgrey
+}
+.maincontainer{
+    margin: auto;
+    background-color: coral;
+    padding: 5px;
+    display: block;
+}
+header{
+    max-height: 200px;
+    background-color: lime;
+    padding: 8px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4px;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    background-image: url('images/header.jpg');
+    position: relative;   
+    color: darkorange;
+
+}
+.textleft{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 3vw;
+}
+.textright{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 3vw;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.active a{
+    background-color: coral;
+    color: black;
+}
+
+
+nav{
+    max-height: 100px;
+    display: flex;
+    background-color: rgb(2, 2, 2);
+    padding: 8px;
+}
+nav>.menu,ul,li{
+    display: flex;
+    text-decoration: none;
+    margin: auto;
+    padding: 8px;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+li,a{
+    text-decoration: none;
+    color: coral;
+}
+ a:hover{
+    color: white;
+    background-color: coral;
+    
+    
+}
+
+
+/* div a:active{
+    background-color: chartreuse;
+    ;
+}
+a:focus{
+    background-color: chartreuse;
+    ;
+} */
