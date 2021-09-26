@@ -208,9 +208,13 @@ input{
 }
 input[type=submit]{
     background-color: lime;
-    color: coral;
+    color: black;
     padding: 8px;
     border-radius: 4px;
+    font-size: 1em;
+    width: 30%;
+    
+
 }
 #contright{
     width: 60%;
