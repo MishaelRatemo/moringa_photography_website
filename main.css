@@ -213,8 +213,9 @@ input[type=submit]{
     border-radius: 4px;
 }
 #contright{
+    width: 60%;
     
-    float: right;
+    
 
 }
 #contright{
