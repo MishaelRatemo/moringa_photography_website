@@ -35,16 +35,29 @@ header{
     right: 20px;
     font-size: 3vw;
 }
-.centered {
+.centertext {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left: 40%;
     transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2vw;
+    transform: rotate(20deg);
+
+
   }
+.active{
+    padding: 4px;
+}
 
 .active a{
     background-color: coral;
     color: black;
+    border-radius: 5px;
+    padding: 8px;
+    border-style:inset;
+    border-color: white;
+    border-width: 0 8px 6px 0;
 }
 
 
@@ -72,13 +85,64 @@ li,a{
     
     
 }
-
-
-/* div a:active{
-    background-color: chartreuse;
-    ;
+.home{
+    /* height: 600px; */
+    background-image: url('images/homeimage.jpg');
+    filter: 10px;
+    background-size: cover;
+    padding: 8px;
+    text-align: center;
 }
-a:focus{
-    background-color: chartreuse;
-    ;
-} */
+.content{
+    background-color: rgba(0,0,0, 0.3); 
+    color: white;
+    font-weight: bold;
+    border: 2px solid #ec5d09;
+    width: 50%;
+    margin: auto;
+}
+#team{
+    background-color: rgba(0,0,0, 0.3); 
+    color: coral;
+    font-weight: bold;
+    border: 2px solid white;
+    border-style: outset;
+    border-width: 8px 2px 2px 8px;
+    border-radius: 20px 0 20px 0;
+    width: 50%;
+    padding: 10px;
+    font-family: fantasy;
+
+
+}
+.container{
+    background-color: coral;
+    background-color: rgba(29, 27, 26, 0.3);
+    display: flex;
+    justify-content: space-between;
+}
+.leftside,.rightside{
+    padding: 10px;
+}
+.leftside {
+    display: block;
+    flex-direction: column;
+    color:white ;
+    font-weight: 900;
+    
+    
+}
+.list{
+    font-size: 2.4em;    
+
+}
+.list:hover{
+    background-color: tomato;
+}
+.rightside{
+   
+}
+.galcontent,.contactcontent,.aboutcontent{
+    height: 600px;
+}
+
