@@ -205,8 +205,11 @@ input{
     width: 100%;
     margin-bottom: 5px;
 }
-input[submit]{
+input[type=submit]{
     background-color: lime;
+    color: coral;
+    padding: 8px;
+    border-radius: 4px;
 }
 #contright{
     
