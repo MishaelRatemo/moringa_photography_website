@@ -7,8 +7,11 @@ body{
     background-color: rgb(241, 116, 70);
     padding: 5px;
     background-image: url('images/homeimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header{
+    display: flex;
     max-height: 200px;
     padding: 8px;
     align-content: center;
@@ -21,6 +24,149 @@ header{
     color: darkorange;
 
 }
+#logo img{
+    border-radius: 20px;
+}
+
+nav{
+    margin-left: 30%;
+    max-height: 100px;
+    display: flex;
+    padding: 8px;
+
+}
+nav>.menu,ul,li{
+    margin: auto 15px ;
+    padding: 8px;
+    font-weight: 700;
+    font-size: 1.9vw;
+    justify-content: space-around;
+}
+li,a{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    list-style: none;
+
+}
+.menu ul {
+    display: flex;;
+}
+.menu ul li {
+    background-color: cadetblue;
+    border-radius: 20px;
+    justify-content:space-evenly;
+    padding: 10px;
+}
+ a:hover{
+    color: white;
+    background-color: coral;   
+    
+}
+
+.home{
+    /* height: 600px; */
+    /* background-image: url('images/homeimage.jpg'); */
+    filter: 10px;
+    background-size: cover;
+    padding: 8px;
+    text-align: center;
+}
+
+.content{
+    background-color: rgba(197, 109, 8, 0.3); 
+    color: rgb(68, 176, 209);
+    font-weight: bold;
+    border:  #f09561;
+    border-width:0 1px 5px 0; 
+    border-style: inset;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    background-image: linear-gradient( to bottom, #f09561, transparent);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+    .leftcont{
+        margin: 5px 2px;
+        background:linear-gradient(to bottom,black,transparent); 
+        color: white;
+        font-weight: bold;
+        font-family: fantasy;
+        border-radius: 20px;
+        
+    }
+
+    #who{
+        font-size: 3.4em;
+        font-family: monospace;
+        text-decoration: underline solid coral;
+    }
+
+    .centercont,.rightcont{
+        padding: 10px;
+    }
+    .centercont {
+        background: linear-gradient(to bottom, skyblue,transparent);
+        display: flex;
+        flex-direction: column;
+        color: rgb(255, 251, 251);
+        font-weight: 900;
+        text-align: center; 
+        border-radius: 20px;
+               
+    }
+
+    #service{
+        color: tomato;
+        font-size: 3.4em;
+        font-family: monospace;
+        text-decoration: underline;
+    }
+
+    .rightcont,.centercont,.leftcont{
+        margin: 5px;
+        padding: 10px;
+        width: 33%; 
+    }
+    .rightcont img{
+        
+        border-radius: 20px;
+        flex-wrap: wrap;
+        overflow: auto;
+        width: 100%;
+        height: auto;
+    }
+
+
+footer{
+        
+        background:linear-gradient(to top,black, transparent,black,coral);
+        color: white;
+        display: flex;
+        font-size: 2em;
+        font-weight: 700;
+        text-align: center;
+       
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
 .textleft{
     position: absolute;
     top: 20px;
@@ -59,75 +205,19 @@ header{
 }
 
 
-nav{
-    max-height: 100px;
-    display: flex;
-    background-color: rgb(2, 2, 2);
-    padding: 8px;
-}
-nav>.menu,ul,li{
-    display: flex;
-    text-decoration: none;
-    margin: auto;
-    padding: 8px;
-    font-weight: 700;
-    font-size: 1.2em;
-}
-li,a{
-    text-decoration: none;
-    color: coral;
-}
- a:hover{
-    color: white;
-    background-color: coral;   
-    
-}
-.home{
-    /* height: 600px; */
-    background-image: url('images/homeimage.jpg');
-    filter: 10px;
-    background-size: cover;
-    padding: 8px;
-    text-align: center;
-}
-.content{
-    background-color: rgba(0,0,0, 0.3); 
-    color: white;
-    font-weight: bold;
-    border: 2px solid #ec5d09;
-    width: 50%;
-    margin: auto;
-}
-#team{
-    background-color: rgba(0,0,0, 0.3); 
-    color: coral;
-    font-weight: bold;
-    border: 2px solid white;
-    border-style: outset;
-    border-width: 8px 2px 2px 8px;
-    border-radius: 20px 0 20px 0;
-    width: 50%;
-    padding: 10px;
-    font-family: fantasy;
-}
-.container{
-    background-color: coral;
-    background-color: rgba(29, 27, 26, 0.3);
-    display: flex;
-    justify-content: space-between;
-}
-.leftside,.rightside{
-    padding: 10px;
-}
-.leftside {
-    display: flex;
-    flex-direction: column;
-    color:white ;
-    font-weight: 900;
-    text-align: center;
-    
-    
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .list{
     font-size: 2.4em;    
 
@@ -157,18 +247,7 @@ li,a{
 .galcontent,.contactcontent{
     height: 600px;
 }
-footer{
-    height: 150px;
-    background-color: rgb(15, 13, 13);
-    color: white;
-    display: flex;
-    font-size: 2em;
-    font-weight: 700;
-    text-align: center;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
-}
+
 #conthead{
     text-align: center;
     padding: 8px;
