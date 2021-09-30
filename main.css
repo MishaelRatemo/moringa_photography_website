@@ -4,9 +4,9 @@ body{
 }
 .maincontainer{
     margin: auto;
-    background-color: coral;
+    background-color: rgb(241, 116, 70);
     padding: 5px;
-    display: block;
+    background-image: url('images/homeimage.jpg');
 }
 header{
     max-height: 200px;
@@ -17,7 +17,6 @@ header{
     margin-bottom: 4px;
     border-radius: 10px 10px 0 0;
     overflow: hidden;
-    background-image: url('images/header.jpg');
     position: relative;   
     color: darkorange;
 
