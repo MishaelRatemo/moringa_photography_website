@@ -4,6 +4,16 @@
 
 [https://www.figma.com/file/OYgthCIRb2j30GNApw6Mak/Photography?node-id=2%3A45]
 
+## Table of Contents
+--- 
+[Name of project](#Nameofontributors) 
+
+[Description](##Description )
+
+[installation ](installation )
+
+[Licence](##Licence)
+
 ## Names of contributors
 
     -Mishael Ratemo... This was an independent project 
@@ -31,6 +41,8 @@ You need a Desktop/laptop or an android/apple phone in order to have a view of t
 
 ## Licence 
 ## MIT  licence 
+
+### Copyright (c) [2021] [Albert Byrone]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
