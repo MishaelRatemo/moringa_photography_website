@@ -1,2 +1,19 @@
-# moringa_photography_website
+# Mishael's Photography
 
+![projectdesign](https://www.figma.com/file/OYgthCIRb2j30GNApw6Mak/Photography?node-id=0%3A1)
+
+## Names of contributors
+
+    -Mishael Ratemo... This was an independent project 
+
+## Description of the project's purpose
+
+     This is a photograpghy website of a single person who does the work of photography in different events like weddings, graduations, babyshowers and animal photoshooting. The aim is to showcase the work to a wide range of people who will be able to go through Mishael's work and make a booking in turn in case they have an event that they would want to keep in picture.
+
+## Complete installation instructions
+
+    For one to use this website you only need a browerser like Chrome, Safari or Opera min to run the website.
+
+## Live demo
+
+    Click this ........... to access the live demo of the website 
