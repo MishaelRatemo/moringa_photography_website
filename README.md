@@ -25,3 +25,5 @@ This is a photograpghy website of a single person who does the work of photograp
 You need a Desktop/laptop or an android/apple phone in order to have a view of this work. in all the mentioned devices one need to have access to the internet and have a browser as mentioned in the i nstalltion instructions
 
 ## Technology deployed.( programming language used)
++ HTML - dedigning the website and placing the content
++ CSS - used to style the pages populated by the html to make them appealing
