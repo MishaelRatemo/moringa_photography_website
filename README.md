@@ -5,8 +5,9 @@
 [https://www.figma.com/file/OYgthCIRb2j30GNApw6Mak/Photography?node-id=2%3A45]
 
 ## Table of Contents
---- 
-[Name of project](#Nameofontributors) 
+
+---
+[Name of project](#Nameofontributors)
 
 [Description](##Description )
 
@@ -27,20 +28,22 @@ This is a photograpghy website of a single person who does the work of photograp
     For one to use this website you only need a browerser like Chrome, Safari or Opera min to run the website.
 
 ## Live demo
-
-    Click this ........... to access the live demo of the website 
+Click 
+[liveDemo](https://mishaelratemo.github.io/moringa_photography_website/)
+    to access the live demo of the website  
 
 ## Requirements
 
 You need a Desktop/laptop or an android/apple phone in order to have a view of this work. in all the mentioned devices one need to have access to the internet and have a browser as mentioned in the i nstalltion instructions
 
 ## Technology deployed.( programming language used)
+
 + HTML - dedigning the website and placing the content
 + CSS - used to style the pages populated by the html to make them appealing
 
+## Licence
 
-## Licence 
-## [MIT licence]() 
+## [MIT licence]()
 
 ### Copyright (c) [2021] [Albert Byrone]
 
