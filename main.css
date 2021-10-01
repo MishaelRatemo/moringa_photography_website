@@ -102,11 +102,25 @@ li,a{
         color: white;
         font-size: 1.1em;
     }
+    .heading2{
+        color: tomato;
+        font-size: 36px;
+    }
+
+    #list li{
+        list-style: bullets;
+        text-align: start;
+        font-size: 24px;
+    }
+
 
     #who{
-        font-size: 3.4em;
+        font-size: 3em;
         font-family: monospace;
         text-decoration: underline solid coral;
+    }
+    .who{
+        text-decoration: underline solid tomato;
     }
 
     .centercont,.rightcont{
